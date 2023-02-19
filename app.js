@@ -90,6 +90,7 @@ function addMealToDOM(meal) {
 
 // Add event listener
 submit.addEventListener('submit', searchMeal);
+random.addEventListener('click', randomMeal);
 
 mealsEl.addEventListener('click', e => {
     const mealInfo = e.composedPath().find(item => {
